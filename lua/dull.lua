@@ -124,6 +124,7 @@ local function set_highlight_groups()
 	vim.api.nvim_set_hl(0, 'Title', {fg = '#e4e4ef', bg = nil, bold = false})
 	vim.api.nvim_set_hl(0, 'Comment', {fg = '#cecece', bg = nil, bold = false})
 	vim.api.nvim_set_hl(0, 'StatusLineNC', {fg = nil, bg = nil, bold = false})
+	vim.api.nvim_set_hl(0, 'WhiteSpace', {fg = '#303030', bg = nil, bold = false})
 end
 
 function M.setup()
